@@ -8,7 +8,7 @@ public class Consumer {
 
     @StreamListener("my_msg")
     public void listener(String msg) {
-        System.out.println("消费者 -> 获取生产消息:" + msg);
+        System.out.println("消费者1  -> 获取生产消息:" + msg);
     }
 
 }
